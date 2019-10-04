@@ -16,13 +16,6 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
   return (
@@ -43,7 +36,7 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+               
               </Text>
             </View>
             <View style={styles.sectionContainer}>
@@ -78,18 +71,18 @@ const styles = StyleSheet.create({
   },
   engine: {
     position: 'absolute',
-    right: 0,
+    right: 10,
   },
   body: {
     backgroundColor: Colors.white,
   },
   sectionContainer: {
-    marginTop: 32,
+    marginTop: 322,
     paddingHorizontal: 24,
   },
   sectionTitle: {
     fontSize: 24,
-    fontWeight: '600',
+    fontWeight: '700',
     color: Colors.black,
   },
   sectionDescription: {
@@ -107,7 +100,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     padding: 4,
     paddingRight: 12,
-    textAlign: 'right',
+    textAlign: 'left',
   },
 });
 
